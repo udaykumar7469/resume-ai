@@ -1,19 +1,30 @@
 # Resume AI
 
-An AI-powered resume analysis platform built with Python.
+Resume AI is a Python-based application that automates resume processing and analysis. The platform allows users to upload resumes, extract relevant information, and evaluate candidate profiles through an AI-assisted workflow.
 
 ## Features
 
-* Resume parsing
-* Resume evaluation
-* Automated analysis workflows
-* GitHub-based project management
+* Resume upload and processing
+* Automated resume analysis
+* ATS-friendly evaluation workflow
+* File management for uploaded resumes
+* Python-based backend architecture
+
+## Project Structure
+
+resume-ai/
+├── uploads/
+├── resumes/
+├── server.py
+├── requirements.txt
+└── README.md
 
 ## Tech Stack
 
 * Python
-* Git
-* GitHub
+* Git & GitHub
+* File Processing
+* AI/NLP Components
 
 ## Installation
 
@@ -21,12 +32,13 @@ An AI-powered resume analysis platform built with Python.
 git clone https://github.com/udaykumar7469/resume-ai.git
 cd resume-ai
 pip install -r requirements.txt
+python server.py
 ```
 
-## Usage
+## Future Enhancements
 
-Run the application according to your project setup.
-
-## Author
-
-Uday Kumar
+* Resume scoring
+* Skill extraction
+* Job matching
+* LLM-powered recommendations
+* Dashboard analytics
